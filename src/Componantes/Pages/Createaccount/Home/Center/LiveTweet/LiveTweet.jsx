@@ -24,12 +24,11 @@ function LiveTweet() {
   const TweetData = useSelector((state) => state.Tweets);
 
   return (
-    <div className={style.feed}>
-      <div className={style.feed__header}>
+    <div className={style.fed}>
+      <div className={style.fedheader}>
        
-        <BsTwitter className={style.twitterLogo} />
         <h2>Home</h2>
-        <div className={style.foru}>
+        <div className={style.foryou}>
         <span>Foryou </span>
         <span>Following</span>
         </div>

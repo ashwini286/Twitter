@@ -57,9 +57,9 @@ export default function PostTweet() {
   };
   return (
     <>
-       <div className={style.tweetBox}>
+       <div className={style.tweetbox}>
       {/* <form onSubmit={handleSubmit}> */}
-      <div className={style.tweetBox__input}>
+      <div className={style.tweetBoxinput}>
         <Avatar src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/284832/settings_images/rLlCifhXRJiT0RoN2FjK_Logo_roundbackground_black.png" />
       </div>
 
@@ -73,17 +73,17 @@ export default function PostTweet() {
       />
       <div className={style.iconsDiv}>
         <div>
-          <CiImageOn className={style.image} />
-          <AiOutlineFileGif className={style.gifi} />
-          <BiPoll className={style.poll} />
-          <BsEmojiSmile className={style.smily} />
-          <BiSpreadsheet className={style.timeTable} />
-          <LocationOnIcon className={style.location} />
+          <CiImageOn className={style.img} />
+          <AiOutlineFileGif className={style.gif} />
+          <BiPoll className={style.polll} />
+          <BsEmojiSmile className={style.smile} />
+          <BiSpreadsheet className={style.timeTaable} />
+          <LocationOnIcon className={style.locations} />
         </div>
         <button
           disabled={tweetdata.content.length === 0}
           type="submit"
-          className={style.tweetBox__tweetButton}
+          className={style.tweetBoxtweetButton}
           onClick={handleSubmit}
         >
           Tweet

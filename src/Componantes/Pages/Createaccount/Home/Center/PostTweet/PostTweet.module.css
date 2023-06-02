@@ -1,4 +1,4 @@
-.tweetBox {
+.tweetbox {
     padding-bottom: 10px;
     border-bottom: 8px solid var(--twitter-background);
     padding-right: 10px;
@@ -24,7 +24,7 @@
     display: none;
   }
 
-  .tweetBox__input {
+  .tweetBoxinput {
     padding: 20px;
     /* width: auto; */
     display: flex;
@@ -34,19 +34,19 @@
     width: 70%;
   }
   
-  .tweetBox__input > input {
+  .tweetBoxinput > input {
     flex: 1;
     margin-left: 20px;
     font-size: 20px;
     border: none;
   }
   
-  .tweetBox__imageInput {
+  .tweetBoximageInput {
     border: none;
     padding: 10px;
   }
   
-  .tweetBox__tweetButton {
+  .tweetBoxtweetButton {
     background-color: #1d9bf0 !important;
     border: none !important;
     color: white !important;
@@ -71,29 +71,29 @@
     justify-content: space-between;
     margin-left: 2rem;
   }
-  .image {
+  .img {
     font-size: 25px;
     color: #1d9bf0;
   }
   
-  .gifi {
+  .gif {
     font-size: 25px;
     color: #1d9bf0;
   }
   
-  .poll {
+  .polll {
     font-size: 25px;
     color: #1d9bf0;
   }
-  .smily {
+  .smile {
     font-size: 25px;
     color: #1d9bf0;
   }
-  .timeTable {
+  .timeTaable {
     font-size: 25px;
     color: #1d9bf0;
   }
-  .location {
+  .locations {
     font-size: 25px;
     color: #1d9bf0;
   }
@@ -102,7 +102,7 @@
       margin-left: 18rem !important;
       margin-top: 0.3rem !important;
     }
-    .tweetBox textarea {
+    .tweetbox input {
       margin-top: -2rem;
     }
   
@@ -111,7 +111,7 @@
       /* border: 1px solid red; */
     }
   
-    .tweetBox__tweetButton {
+    .tweetBoxtweetButton {
       background-color: #1d9bf0 !important;
       border: none !important;
   
